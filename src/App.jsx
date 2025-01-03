@@ -9,7 +9,7 @@ import Events from './components/Events';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/shiny-bassoon">
       <Routes>
         <Route path='/' element={<FineArtsSociety/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
